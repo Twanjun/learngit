@@ -1,0 +1,16 @@
+学git时遇到的问题：
+提交文件到repository时，误输入git commit
+
+
+
+
+
+
+git add 文件/git commit 文件 时报以下错误：
+fatal: Unable to create './.git/index.lock': File exists. If no other git process is currently running, this probably means a git process crashed in this repository earlier. Make sure no other git process is running and remove the file manually to continue.
+
+这个报错的意思就是说 github目录下的的/.git/index.lock这个文件已经存在了,需要被删掉.所以可以直接手动进入/.git路径(它是隐藏文件夹,需要直接在路径里打),找到index.lock,然后手动删掉就ok了.
+
+也可以通过rm -f ./.git/index.lock或rm -force ./.git/index.lock
+
+In your repository directory. The error message is rather explicit as to what causes it typically, so if you have no other git processes running (which is the normal case), go ahead and delete that file.
