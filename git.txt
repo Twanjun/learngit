@@ -15,4 +15,4 @@ fatal: Unable to create './.git/index.lock': File exists. If no other git proces
 
 In your repository directory. The error message is rather explicit as to what causes it typically, so if you have no other git processes running (which is the normal case), go ahead and delete that file.
 
-creating a new branch is quick
+creating a new branch is quick @ simple.
