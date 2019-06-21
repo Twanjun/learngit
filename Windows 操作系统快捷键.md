@@ -10,5 +10,6 @@
 |Shift + Tab|窗口之间切换|
 |Alt + Enter|查看属性|
 |Ctrl + Enter|打开文件|
+|Ctrl + Shift + Enter|同时打开文件|
 |Ctrl + Shift + N|新建一个文件夹|
 |Windows + L|直接屏锁|
